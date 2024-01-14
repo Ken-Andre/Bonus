@@ -1,14 +1,17 @@
 from typing import List
 from pydantic import BaseModel
 
+
 class Evaluation(BaseModel):
     evalname: str
     credit: int
     code: str
 
+
 class NoteEvaluation(BaseModel):
     evaluation: Evaluation
     note: str
+
 
 class NoteTeachingUnit(BaseModel):
     _id: dict
@@ -23,5 +26,3 @@ class NoteTeachingUnit(BaseModel):
     createdBy: str
     updatedBy: str
     _class: str
-
-
