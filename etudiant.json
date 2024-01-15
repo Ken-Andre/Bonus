@@ -1,0 +1,85 @@
+[
+  {
+  "_id": {
+    "$oid": "655d110e426a38518d82ecd7"
+  },
+  "matricule": "UI24EX01",
+  "admissionNumber": 23001,
+  "promotion": "X2024",
+  "nom": "KEPYA YOMBA",
+  "prenom": "Christian",
+  "campus": "Douala",
+  "email": "christian.kepya@ucac-icam.com",
+  "nationalite": "Camerounais",
+  "sexe": "Masculin",
+  "active": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1700598030591"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1700598030591"
+    }
+  },
+  "createdBy": "Père Bossou Maximilien",
+  "updatedBy": "Père Bossou Maximilien",
+  "_class": "com.kychas.groupemanagement.models.Student"
+},
+  {
+  "_id": {
+    "$oid": "655d1130426a38518d82ecda"
+  },
+  "matricule": "UI24EX02",
+  "admissionNumber": 23002,
+  "promotion": "X2024",
+  "nom": "FENYOM",
+  "prenom": "Bryan",
+  "campus": "Douala",
+  "email": "bryan.fenyom@ucac-icam.com",
+  "nationalite": "Camerounais",
+  "sexe": "Masculin",
+  "active": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1700598064282"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1700598064282"
+    }
+  },
+  "createdBy": "Père Bossou Maximilien",
+  "updatedBy": "Père Bossou Maximilien",
+  "_class": "com.kychas.groupemanagement.models.Student"
+},
+  {
+  "_id": {
+    "$oid": "655d1193426a38518d82ecdd"
+  },
+  "matricule": "UI24EX03",
+  "admissionNumber": 23003,
+  "promotion": "X2024",
+  "nom": "DJODOM",
+  "prenom": "LOIC YVAN",
+  "campus": "Douala",
+  "email": "sipoufo.yvan@ucac-icam.com",
+  "nationalite": "Camerounais",
+  "sexe": "Masculin",
+  "active": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1700598163634"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1700598163634"
+    }
+  },
+  "createdBy": "Père Bossou Maximilien",
+  "updatedBy": "Père Bossou Maximilien",
+  "_class": "com.kychas.groupemanagement.models.Student"
+}]

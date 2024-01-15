@@ -1,0 +1,255 @@
+[
+  {
+  "_id": {
+    "$oid": "6564ef7fd22fc811b7fd562e"
+  },
+  "ueName": "Humanite",
+  "academicYear": "ca9d6",
+  "student": "23001",
+  "level": 5,
+  "noteEvaluations": [
+    {
+      "evaluation": {
+        "evalname": "Comportement en entreprise prince",
+        "credit": 4,
+        "code": "CPE"
+      },
+      "note": "A"
+    },
+    {
+      "evaluation": {
+        "evalname": "Comportement professionel",
+        "credit": 4,
+        "code": "CPT"
+      },
+      "note": "A"
+    }
+  ],
+  "archived": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1701113727701"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1701113727701"
+    }
+  },
+  "createdBy": "Père Bossou Maximilien",
+  "updatedBy": "Père Bossou Maximilien",
+  "_class": "com.kychas.notemanagement.models.NoteTeachingUnit"
+},
+  {
+  "_id": {
+    "$oid": "6564ef8bd22fc811b7fd562f"
+  },
+  "ueName": "Humanite",
+  "academicYear": "ca9d6",
+  "student": "23002",
+  "level": 5,
+  "noteEvaluations": [
+    {
+      "evaluation": {
+        "evalname": "Comportement en entreprise prince",
+        "credit": 4,
+        "code": "CPE"
+      },
+      "note": "A"
+    },
+    {
+      "evaluation": {
+        "evalname": "Comportement professionel",
+        "credit": 4,
+        "code": "CPT"
+      },
+      "note": "A"
+    }
+  ],
+  "archived": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1701113739243"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1701113739243"
+    }
+  },
+  "createdBy": "Père Bossou Maximilien",
+  "updatedBy": "Père Bossou Maximilien",
+  "_class": "com.kychas.notemanagement.models.NoteTeachingUnit"
+},
+  {
+  "_id": {
+    "$oid": "6564ef90d22fc811b7fd5630"
+  },
+  "ueName": "Humanite",
+  "academicYear": "ca9d6",
+  "student": "23003",
+  "level": 5,
+  "noteEvaluations": [
+    {
+      "evaluation": {
+        "evalname": "Comportement en entreprise prince",
+        "credit": 4,
+        "code": "CPE"
+      },
+      "note": "A"
+    },
+    {
+      "evaluation": {
+        "evalname": "Comportement professionel",
+        "credit": 4,
+        "code": "CPT"
+      },
+      "note": "A"
+    }
+  ],
+  "archived": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1701113744392"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1701113744392"
+    }
+  },
+  "createdBy": "Père Bossou Maximilien",
+  "updatedBy": "Père Bossou Maximilien",
+  "_class": "com.kychas.notemanagement.models.NoteTeachingUnit"
+},
+  {
+  "_id": {
+    "$oid": "6564ef96d22fc811b7fd5631"
+  },
+  "ueName": "Humanite",
+  "academicYear": "ca9d6",
+  "student": "23001",
+  "level": 5,
+  "noteEvaluations": [
+    {
+      "evaluation": {
+        "evalname": "Média et transmission",
+        "credit": 1,
+        "code": "MTI"
+      },
+      "note": "A"
+    },
+    {
+      "evaluation": {
+        "evalname": "Adressage et commutation",
+        "credit": 1,
+        "code": "AC"
+      },
+      "note": "B"
+    },
+    {
+      "evaluation": {
+        "evalname": "Modèles et topologies",
+        "credit": 1,
+        "code": "MT"
+      },
+      "note": "C"
+    },
+    {
+      "evaluation": {
+        "evalname": "Plan d'adressage du projet",
+        "credit": 1,
+        "code": "PAP"
+      },
+      "note": "B"
+    },
+    {
+      "evaluation": {
+        "evalname": "Projet conception réseau",
+        "credit": 4,
+        "code": "PCR"
+      },
+      "note": "B"
+    }
+  ],
+  "archived": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1701113750231"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1701120126827"
+    }
+  },
+  "createdBy": "Père Bossou Maximilien",
+  "updatedBy": "Père Bossou Maximilien",
+  "_class": "com.kychas.notemanagement.models.NoteTeachingUnit"
+},
+  {
+  "_id": {
+    "$oid": "6564ef99d22fc811b7fd5632"
+  },
+  "ueName": "Initiation aux réseaux informatiques",
+  "academicYear": "ca9d6",
+  "student": "23002",
+  "level": 5,
+  "noteEvaluations": [
+    {
+      "evaluation": {
+        "evalname": "Média et transmission",
+        "credit": 1,
+        "code": "MTI"
+      },
+      "note": "A"
+    }
+  ],
+  "archived": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1701113753137"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1701113753137"
+    }
+  },
+  "createdBy": "Père Bossou Maximilien",
+  "updatedBy": "Père Bossou Maximilien",
+  "_class": "com.kychas.notemanagement.models.NoteTeachingUnit"
+},
+  {
+  "_id": {
+    "$oid": "6564ef9ed22fc811b7fd5633"
+  },
+  "ueName": "Initiation aux réseaux informatiques",
+  "academicYear": "ca9d6",
+  "student": "23003",
+  "level": 5,
+  "noteEvaluations": [
+    {
+      "evaluation": {
+        "evalname": "Média et transmission",
+        "credit": 1,
+        "code": "MTI"
+      },
+      "note": "A"
+    }
+  ],
+  "archived": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1701113758683"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1701113758683"
+    }
+  },
+  "createdBy": "Père Bossou Maximilien",
+  "updatedBy": "Père Bossou Maximilien",
+  "_class": "com.kychas.notemanagement.models.NoteTeachingUnit"
+}]

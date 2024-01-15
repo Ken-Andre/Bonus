@@ -1,0 +1,167 @@
+[{
+  "_id": {
+    "$oid": "655d18bd9d7d0d0c83136ba4"
+  },
+  "name": "Humanite",
+  "academicYear": "ca9d6",
+  "code": "HUE",
+  "level": 5,
+  "evaluations": [
+    {
+      "evalname": "Comportement en entreprise prince",
+      "credit": 4,
+      "code": "CPE"
+    },
+    {
+      "evalname": "Comportement professionel",
+      "credit": 4,
+      "code": "CPT"
+    }
+  ],
+  "archived": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1700599997293"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1701110899810"
+    }
+  },
+  "createdBy": "Père Bossou Maximilien",
+  "updatedBy": "Père Bossou Maximilien",
+  "_class": "com.kychas.notemanagement.models.TeachingUnit"
+},{
+  "_id": {
+    "$oid": "6564e0e1d22fc811b7fd562d"
+  },
+  "name": "Initiation aux réseaux informatiques",
+  "academicYear": "ca9d6",
+  "code": "IRI",
+  "level": 5,
+  "evaluations": [
+    {
+      "evalname": "Modèles et topologies",
+      "credit": 1,
+      "code": "MT"
+    },
+    {
+      "evalname": "Média et transmission",
+      "credit": 1,
+      "code": "MTI"
+    },
+    {
+      "evalname": "Adressage et commutation",
+      "credit": 1,
+      "code": "AC"
+    },
+    {
+      "evalname": "Plan d'adressage du projet",
+      "credit": 1,
+      "code": "PAP"
+    },
+    {
+      "evalname": "Projet conception réseau",
+      "credit": 4,
+      "code": "PCR"
+    }
+  ],
+  "archived": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1701109984828"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1701109984828"
+    }
+  },
+  "createdBy": "Père Bossou Maximilien",
+  "updatedBy": "Père Bossou Maximilien",
+  "_class": "com.kychas.notemanagement.models.TeachingUnit"
+},{
+  "_id": {
+    "$oid": "659531d0571c9b29dfa01477"
+  },
+  "name": "Humanite",
+  "academicYear": "d4f09",
+  "code": "HUE",
+  "level": 5,
+  "evaluations": [
+    {
+      "evalname": "Comportement en entreprise prince",
+      "credit": 4,
+      "code": "CPE"
+    },
+    {
+      "evalname": "Comportement professionel",
+      "credit": 4,
+      "code": "CPT"
+    }
+  ],
+  "archived": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1704276432176"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1704276432176"
+    }
+  },
+  "createdBy": "Système",
+  "updatedBy": "Système",
+  "_class": "com.kychas.notemanagement.models.TeachingUnit"
+},{
+  "_id": {
+    "$oid": "659531d0571c9b29dfa01478"
+  },
+  "name": "Initiation aux réseaux informatiques",
+  "academicYear": "d4f09",
+  "code": "IRI",
+  "level": 5,
+  "evaluations": [
+    {
+      "evalname": "Modèles et topologies",
+      "credit": 1,
+      "code": "MT"
+    },
+    {
+      "evalname": "Média et transmission",
+      "credit": 1,
+      "code": "MTI"
+    },
+    {
+      "evalname": "Adressage et commutation",
+      "credit": 1,
+      "code": "AC"
+    },
+    {
+      "evalname": "Plan d'adressage du projet",
+      "credit": 1,
+      "code": "PAP"
+    },
+    {
+      "evalname": "Projet conception réseau",
+      "credit": 4,
+      "code": "PCR"
+    }
+  ],
+  "archived": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1704276432338"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1704276432338"
+    }
+  },
+  "createdBy": "Système",
+  "updatedBy": "Système",
+  "_class": "com.kychas.notemanagement.models.TeachingUnit"
+}]
