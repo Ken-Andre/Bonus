@@ -25,7 +25,7 @@ for counter in range(init, init+5):
     # Transformation pour remplir les valeurs manquantes avec une chaîne vide
     transformed_data = [
         {
-            "_id": {"$oid": ""},
+            # "_id": {"$oid": ""},
             "matricule": student.get("Matricule", ""),
             "admissionNumber": 0,
             "promotion": f"X202{counter}",  # Remplacez avec la vraie année si nécessaire
@@ -36,10 +36,16 @@ for counter in range(init, init+5):
             "nationalite": "",
             "sexe": "",
             "active": False,
-            "createdAt": {"$date": {"$numberLong": "0"}},
-            "updatedAt": {"$date": {"$numberLong": "0"}},
-            "createdBy": "",
-            "updatedBy": "",
+            "metadata": {
+                "user":{
+                    "createdBy": "",
+                    "updatedBy": "",
+                },
+                "time": {
+                    "createdAt": {"$date": {"$numberLong": "0"}},
+                    "updatedAt": {"$date": {"$numberLong": "0"}},
+                },
+            },
             "_class": "com.kychas.groupemanagement.models.Student"
         }
         for student in data
