@@ -3,7 +3,7 @@ from pydantic import BaseModel
 
 
 class Etudiant(BaseModel):
-    _id: dict
+    # _id: dict
     matricule: str
     admissionNumber: int
     promotion: str

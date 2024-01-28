@@ -1,12 +1,13 @@
 import jpype
 import json
+
 jpype.startJVM()
 from asposecells.api import Workbook
 
 base_path = "../"
 init = 1  # Commencer à partir de X1_promo_list.xlsx
 
-for counter in range(init, init+5):
+for counter in range(init, init + 5):
     xlsx_path = f"{base_path}X{counter}_promo_list.xlsx"
     json_path = f"X{counter}_promo_list.json"
 
@@ -17,39 +18,43 @@ for counter in range(init, init+5):
         print(f"X{counter}_promo_list.xlsx didn't exist. Error: {e}")
 
     input_file_path = f"X{counter}_promo_list.json"
-    output_file_path = f"X{counter}_etudiant.json"
+    output_file_path = f"X202{4 + (5 - counter)}/X{counter}_etudiant.json"
 
     with open(input_file_path, 'r', encoding='utf-8') as json_file:
         data = json.load(json_file)
 
     # Transformation pour remplir les valeurs manquantes avec une chaîne vide
-    transformed_data = [
-        {
+    transformed_data = []
+    for student in data:
+        # Récupère la valeur de "Matricule", si elle n'existe pas, utilise une chaîne vide
+        transformed_data.append({
             # "_id": {"$oid": ""},
             "matricule": student.get("Matricule", ""),
             "admissionNumber": 0,
-            "promotion": f"X202{counter}",  # Remplacez avec la vraie année si nécessaire
+            "promotion": f"X202{4 + (5 - counter)}",  # L'anne de fin de d'etude de la promo en fonction du counter
             "nom": student.get("Nom", ""),
             "prenom": student.get("Prénom", ""),
             "campus": student.get("Campus", ""),
             "email": student.get("Email", ""),
             "nationalite": "",
             "sexe": "",
-            "active": False,
+            "active": True if (2024 + (5 - counter) > 2024) else False,
+            # "createdAt": {"$date": {"$numberLong": "0"}},
+            # "updatedAt": {"$date": {"$numberLong": "0"}},
+            # "createdBy": "Père Bossou Maximilien",
+            # "updatedBy": "Père Bossou Maximilien",
             "metadata": {
-                "user":{
-                    "createdBy": "",
-                    "updatedBy": "",
+                "created": {
+                    "At": {"$date": {"$numberLong": "0"}},
+                    "By": "Père Bossou Maximilien",
                 },
-                "time": {
-                    "createdAt": {"$date": {"$numberLong": "0"}},
-                    "updatedAt": {"$date": {"$numberLong": "0"}},
+                "updated": {
+                    "At": {"$date": {"$numberLong": "0"}},
+                    "By": "Père Bossou Maximilien",
                 },
-            },
-            "_class": "com.kychas.groupemanagement.models.Student"
-        }
-        for student in data
-    ]
+                "_class": "app.note.cctl"
+            }
+        })
 
     with open(output_file_path, 'w', encoding='utf-8') as output_file:
         json.dump(transformed_data, output_file, indent=2)
