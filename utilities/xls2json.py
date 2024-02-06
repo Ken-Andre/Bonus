@@ -18,7 +18,7 @@ for counter in range(init, init + 5):
         print(f"X{counter}_promo_list.xlsx didn't exist. Error: {e}")
 
     input_file_path = f"X{counter}_promo_list.json"
-    output_file_path = f"X202{4 + (5 - counter)}/X{counter}_etudiant.json"
+    output_file_path = f"X{counter}_etudiant.json" #X202{4 + (5 - counter)}/
 
     with open(input_file_path, 'r', encoding='utf-8') as json_file:
         data = json.load(json_file)

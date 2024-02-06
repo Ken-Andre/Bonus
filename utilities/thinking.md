@@ -29,4 +29,4 @@
 si un étudiant est supprimé dans le fichier etudiants.json, mettre à jour ou supprimer toutes les références à cet étudiant dans le fichier note-ue.json pour éviter des incohérences.
 
 #Propositions
-    
+    juste inclure l'object_id l'etudiant

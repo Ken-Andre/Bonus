@@ -1,9 +1,14 @@
-from typing import List
-from pydantic import BaseModel
+from typing import List, Optional
+from pydantic import BaseModel, Field
+
+
+class Metadata(BaseModel):
+    created: dict
+    updated: dict
+    _class: str
 
 
 class Etudiant(BaseModel):
-    # _id: dict
     matricule: str
     admissionNumber: int
     promotion: str
@@ -14,11 +19,7 @@ class Etudiant(BaseModel):
     nationalite: str
     sexe: str
     active: bool
-    createdAt: dict
-    updatedAt: dict
-    createdBy: str
-    updatedBy: str
-    _class: str
+    metadata: Metadata
 
 
 class EtudiantsList(BaseModel):
